@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #999;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  color: #667085;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #fff;
+  max-width: 600px;
+  padding: 0 24px 24px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+thead th,
+tbody td,
+tbody th,
+tfoot th,
+tfoot td {
+  padding: 16px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #98a2b3;
+}
+
+a:hover {
+  color: #667085;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header a {
+  margin: 12px 0;
+}
+
+header img {
+  margin: 16px 0;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 28px;
+  color: #101828;
+  align-self: flex-start;
+  margin: 24px 0 8px;
+}
+
+.subtitle {
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+
+thead th,
+tbody tr,
+tfoot tr {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.price,
+.qty {
+  text-align: right;
+  color: #101828;
+}
+
+.item,
+.total,
+.total-price {
+  font-weight: 600;
+}
+
+.item,
+.total {
+  text-align: left;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 48px;
+}
+
+footer img {
+  margin-bottom: 12px;
+}
+
+.company {
+  color: #101828;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+address {
+  font-style: normal;
+}

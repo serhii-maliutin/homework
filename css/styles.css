@@ -1,0 +1,257 @@
+/* * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+} */
+
+/* Reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #999;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  color: #667085;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #fff;
+  max-width: 600px;
+  padding: 0 24px 24px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+#col1 {
+  width: 288px;
+}
+
+#col2 {
+  width: 138px;
+}
+
+#col3 {
+  width: 126px;
+}
+
+thead th,
+tbody td,
+tbody th,
+tfoot th,
+tfoot td {
+  padding: 16px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #98a2b3;
+}
+
+a:hover {
+  color: #667085;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header a {
+  margin: 12px 0;
+}
+
+header img {
+  margin: 16px 0;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 28px;
+  color: #101828;
+  align-self: flex-start;
+  margin: 24px 0 8px;
+}
+
+.subtitle {
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+
+thead th,
+tbody tr,
+tfoot tr {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.price,
+.qty {
+  text-align: right;
+  color: #101828;
+}
+
+.item,
+.total,
+.total-price {
+  font-weight: 600;
+}
+
+.item,
+.total {
+  text-align: left;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 48px;
+}
+
+footer img {
+  margin-bottom: 12px;
+}
+
+.company {
+  color: #101828;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+address {
+  font-style: normal;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Acme Table Letter</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a href="#">View in browser</a>
+        <img src="images/acme.png" alt="Logo Acme" />
+        <h1 class="title">Functional Style</h1>
+        <p class="subtitle">
+          Combine practicality and style effortlessly with our furniture,
+          offering functional designs that enhance your living space
+        </p>
+      </header>
+
+      <table>
+        <thead>
+          <tr>
+            <th id="col1" scope="col" class="item">Item</th>
+            <th id="col2" scope="col" class="qty heading">Qty</th>
+            <th id="col3" scope="col" class="price heading">Price</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Elegant Feast</td>
+            <td class="qty">2</td>
+            <td class="price">$499.99</td>
+          </tr>
+          <tr>
+            <td>Modern Fusion</td>
+            <td class="qty">2</td>
+            <td class="price">$699.99</td>
+          </tr>
+          <tr>
+            <td>Rustic Charm</td>
+            <td class="qty">2</td>
+            <td class="price">$399.99</td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <th scope="row" class="total">Total</th>
+            <td class="qty">6</td>
+            <td class="price total-price">$3194.99</td>
+          </tr>
+        </tfoot>
+      </table>
+
+      <footer>
+        <div>
+          <img src="images/acme.png" alt="Logo Acme" />
+          <p class="company">Acme corporation</p>
+          <p>Think different</p>
+        </div>
+        <address>123 Main Street Anytown, CA 12345</address>
+      </footer>
+    </div>
+  </body>
+</html>

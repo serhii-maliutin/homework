@@ -96,6 +96,7 @@ button {
   display: flex;
   align-items: center;
   gap: 4px;
+  cursor: pointer;
 }
 
 button span {

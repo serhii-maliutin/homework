@@ -1,0 +1,164 @@
+/* Simple Reset */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Custom Fonts */
+@font-face {
+  font-family: "Cera Pro";
+  font-weight: 400;
+  src: url("../fonts/cerapro-regular-webfont.woff2") format("woff2"),
+    url("../fonts/cerapro-regular-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Cera Pro";
+  font-weight: 500;
+  src: url("../fonts/cerapro-medium-webfont.woff2") format("woff2"),
+    url("../fonts/cerapro-medium-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Cera Pro";
+  font-weight: 700;
+  src: url("../fonts/cerapro-bold-webfont.woff2") format("woff2"),
+    url("../fonts/cerapro-bold-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Cera Pro";
+  font-weight: 900;
+  src: url("../fonts/cerapro-black-webfont.woff2") format("woff2"),
+    url("../fonts/cerapro-black-webfont.woff") format("woff");
+}
+
+body {
+  font-family: "Cera Pro", sans-serif;
+  color: #3d3d3d;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+header .container {
+  border-bottom: 1px solid #46a35880;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 19px 0;
+  margin: 12px auto;
+}
+
+.logo {
+  display: block;
+}
+
+nav ul {
+  display: flex;
+  gap: 50px;
+}
+
+nav a {
+  color: #3d3d3d;
+  padding: 25px 0;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #46a358;
+}
+
+.current {
+  font-weight: 700;
+  line-height: 20.11px;
+  border-bottom: 3px solid #46a358;
+}
+
+button {
+  background-color: #46a358;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 17px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+button span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.11px;
+  margin-top: 1px;
+}
+
+/* Hero */
+.hero {
+  background-color: #f5f5f580;
+  font-size: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text {
+  flex-basis: 50%;
+}
+
+.subtitle {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 7px;
+  margin-left: 43px;
+}
+
+.title {
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 70px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  margin-left: 40px;
+
+  span {
+    color: #46a358;
+  }
+}
+
+.intro {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #727272;
+  margin-bottom: 44px;
+  margin-left: 43px;
+}
+
+.btn {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  display: inline-block;
+  background-color: #46a358;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 26.5px;
+  border-radius: 6px;
+  margin-left: 41px;
+}
